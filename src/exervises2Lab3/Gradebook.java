@@ -1,11 +1,11 @@
 package exervises2Lab3;
 
-public class Gradbook {
+public class Gradebook {
 	private String courseName;
 	private String instructorName;
-	public Gradbook(String name,String name2) {
+	public Gradebook(String name,String instructorName) {
 		courseName = name;
-		instructorName = name2;
+		this.instructorName = instructorName;
 	}
 	
 	public void setCourseName(String name) {
@@ -13,7 +13,7 @@ public class Gradbook {
 	}
 	
 	public String getCourseName() {
-		return courseName;
+		return courseName;	
 	}
 	
 	public void setInstructorName(String name) {
