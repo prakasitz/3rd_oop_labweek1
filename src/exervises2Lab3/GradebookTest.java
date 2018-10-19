@@ -6,7 +6,7 @@ public class GradebookTest {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		Gradbook gradeBook1 = new Gradbook("CS101 Introduction to Java Programing","Sam Smith");
+		Gradebook gradeBook1 = new Gradebook("CS101 Introduction to Java Programing","Sam Smith");
 		gradeBook1.displayMessage();
 		System.out.print("Changing instructor name to: ");
 		String str = input.nextLine();
