@@ -38,8 +38,9 @@ public class Person {
 	public String toString() {
 		if(gender == "n/a" && age == -1) {
 			return getName();
-		}
-		return String.format("%s is a %d year old %s", getName() ,getAge(),
+		} else {
+			return String.format("%s is a %d year old %s", getName() ,getAge(),
 				getGender());
+		}
 	}
 }

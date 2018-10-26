@@ -18,9 +18,11 @@ public class Time2 {
 	public Time2(int h, int m, int s) {
 		setTime(h,m,s);
 	}
+	
 	public Time2(Time2 time) {
 		this(time.getHour(),time.getMinute(),time.getSecond());
 	}
+
 	public void setTime(int h,int m,int s) {
 		setHour(h);
 		setMinute(m);
